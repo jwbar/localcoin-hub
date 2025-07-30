@@ -3,22 +3,22 @@ import { Button } from "@/components/ui/button";
 const Benefits = () => {
   const benefits = [
     {
-      title: "Economic Empowerment",
-      description: "LocalCoin empowers local economies by providing accessible and inclusive financial services that work for everyone.",
+      title: "Quick Deployment",
+      description: "Deploy a complete Web3 payment ecosystem in days, not months. Perfect for festivals, events, and municipal implementations.",
+      stat: "48h",
+      statLabel: "Setup Time"
+    },
+    {
+      title: "Proven ROI",
+      description: "Reduce transaction costs by up to 80% while increasing local economic activity and tourism engagement through seamless crypto payments.",
+      stat: "80%",
+      statLabel: "Cost Reduction"
+    },
+    {
+      title: "White-Label Ready",
+      description: "Fully customizable platform that can be branded for your city, event, or organization. Complete source code included.",
       stat: "100%",
-      statLabel: "Inclusive Access"
-    },
-    {
-      title: "Community Engagement",
-      description: "Foster stronger community connections through seamless communication and shared economic opportunities.",
-      stat: "24/7",
-      statLabel: "Community Support"
-    },
-    {
-      title: "Scalable Solution",
-      description: "Perfect for local businesses, large festivals, and events where traditional payment systems may be limited.",
-      stat: "∞",
-      statLabel: "Growth Potential"
+      statLabel: "Customizable"
     }
   ];
 
@@ -27,11 +27,11 @@ const Benefits = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-6">
-            Why Choose LocalCoin?
+            Why Cities & Events Choose LocalCoin
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            Transform your local economy with our comprehensive Web3 platform designed 
-            for businesses, entrepreneurs, and communities.
+            Join forward-thinking municipalities, festival organizers, and investors who are 
+            already implementing LocalCoin to revolutionize their local economies.
           </p>
         </div>
 
@@ -59,18 +59,18 @@ const Benefits = () => {
 
         <div className="bg-gradient-hero rounded-2xl p-12 text-center">
           <h3 className="text-2xl md:text-4xl font-bold text-primary-foreground mb-6">
-            Ready to Transform Your Local Economy?
+            Ready to Deploy LocalCoin?
           </h3>
           <p className="text-lg text-primary-foreground/90 mb-8 max-w-2xl mx-auto">
-            Join the Web3 revolution and empower your community with LocalCoin's 
-            comprehensive platform for local commerce and communication.
+            Get started with our enterprise-ready platform. Complete source code, 
+            deployment guides, and ongoing support included for qualified partners.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button variant="earth" size="lg">
-              Start Your Journey
+            <Button variant="gold" size="lg">
+              Contact Sales
             </Button>
             <Button variant="outline" size="lg" className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10">
-              Schedule Demo
+              View Case Studies
             </Button>
           </div>
         </div>

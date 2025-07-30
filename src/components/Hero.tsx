@@ -9,19 +9,19 @@ const Hero = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="text-center lg:text-left">
             <h1 className="text-4xl md:text-6xl font-bold text-primary-foreground mb-6 animate-fade-in">
-              Empower Your Local Economy with{" "}
-              <span className="text-primary-glow">LocalCoin</span>
+              Deploy LocalCoin at Your{" "}
+              <span className="text-gold">Event or City</span>
             </h1>
             <p className="text-lg md:text-xl text-primary-foreground/90 mb-8 leading-relaxed">
-              The comprehensive Web3 platform that revolutionizes local markets through 
-              cryptocurrency payments, seamless messaging, and tourism promotion.
+              The ready-to-deploy Web3 platform for festivals, events, and local governments. 
+              Complete crypto payment infrastructure with messaging and local business integration.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <Button variant="hero" size="lg" className="animate-glow">
-                Get Started Today
+              <Button variant="gold" size="lg" className="animate-glow">
+                Request Demo
               </Button>
               <Button variant="outline" size="lg" className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10">
-                Learn More
+                Download Code
               </Button>
             </div>
           </div>

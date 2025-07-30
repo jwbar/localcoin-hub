@@ -6,18 +6,18 @@ const Features = () => {
   const features = [
     {
       icon: cryptoIcon,
-      title: "Crypto-Based Payments",
-      description: "Secure and efficient cryptocurrency payments that eliminate the need for traditional cash and POS systems. Built for the future of commerce."
+      title: "Ready-to-Deploy Payment System",
+      description: "Complete cryptocurrency payment infrastructure that works out-of-the-box for festivals, events, and local markets. No complex setup required."
     },
     {
       icon: messagingIcon,
-      title: "Seamless Communication",
-      description: "Built-in messaging services with AI-powered language barrier assistance, connecting communities across cultural and linguistic divides."
+      title: "Multi-Language Communication Hub",
+      description: "Built-in messaging platform with AI translation for international events and diverse communities. Perfect for tourism-heavy locations."
     },
     {
       icon: tourismIcon,
-      title: "Tourism Promotion",
-      description: "Empower tourists to discover local activities and make safe payments using cryptocurrency wallets while supporting local businesses."
+      title: "Local Business Integration",
+      description: "Seamlessly connect vendors, tourists, and local services through a unified platform that promotes economic growth and community engagement."
     }
   ];
 
@@ -26,11 +26,11 @@ const Features = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-6">
-            Comprehensive Platform Features
+            Enterprise-Ready LocalCoin Platform
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            LocalCoin offers a centralized hub for all local economic activities, 
-            combining the power of Web3 technology with community-focused solutions.
+            A complete, deployable solution for event organizers, city governments, and investors 
+            looking to implement cutting-edge Web3 technology in their local economies.
           </p>
         </div>
         

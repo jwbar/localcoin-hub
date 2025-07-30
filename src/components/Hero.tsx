@@ -9,12 +9,12 @@ const Hero = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="text-center lg:text-left">
             <h1 className="text-4xl md:text-6xl font-bold text-primary-foreground mb-6 animate-fade-in">
-              Deploy LocalCoin at Your{" "}
-              <span className="text-gold">Event or City</span>
+              The <span className="text-gold">WeChat for Local Economies</span>{" "}
+              – Deploy at Your Event or City
             </h1>
             <p className="text-lg md:text-xl text-primary-foreground/90 mb-8 leading-relaxed">
-              The ready-to-deploy Web3 platform for festivals, events, and local governments. 
-              Complete crypto payment infrastructure with messaging and local business integration.
+              A comprehensive "everything app" platform that unifies payments, messaging, and merchant discovery. 
+              Deploy this ready-to-go Web3 ecosystem that breaks language barriers and creates seamless local commerce experiences.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <Button variant="gold" size="lg" className="animate-glow">

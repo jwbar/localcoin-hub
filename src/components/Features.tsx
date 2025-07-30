@@ -6,18 +6,18 @@ const Features = () => {
   const features = [
     {
       icon: cryptoIcon,
-      title: "Ready-to-Deploy Payment System",
-      description: "Complete cryptocurrency payment infrastructure that works out-of-the-box for festivals, events, and local markets. No complex setup required."
+      title: "Instant Crypto Payments",
+      description: "One-tap payments like WeChat Pay, but with cryptocurrency. Users pay effortlessly while merchants receive instant, secure transactions without traditional banking delays."
     },
     {
       icon: messagingIcon,
-      title: "Multi-Language Communication Hub",
-      description: "Built-in messaging platform with AI translation for international events and diverse communities. Perfect for tourism-heavy locations."
+      title: "AI-Powered Universal Communication",
+      description: "Real-time translation breaks all language barriers. Tourists, locals, and merchants communicate seamlessly in their native languages within the integrated messaging system."
     },
     {
       icon: tourismIcon,
-      title: "Local Business Integration",
-      description: "Seamlessly connect vendors, tourists, and local services through a unified platform that promotes economic growth and community engagement."
+      title: "Intelligent Merchant Discovery",
+      description: "Users discover nearby businesses, services, and experiences through location-based recommendations. Like WeChat's mini-programs, but for your entire local economy ecosystem."
     }
   ];
 
@@ -26,11 +26,11 @@ const Features = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-6">
-            Enterprise-Ready LocalCoin Platform
+            The Complete "Everything App" Platform
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            A complete, deployable solution for event organizers, city governments, and investors 
-            looking to implement cutting-edge Web3 technology in their local economies.
+            Like WeChat revolutionized China's digital economy, LocalCoin creates a unified ecosystem where 
+            payments, communication, and commerce converge. Deploy this comprehensive solution to transform any local economy.
           </p>
         </div>
         

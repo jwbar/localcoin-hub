@@ -3,22 +3,22 @@ import { Button } from "@/components/ui/button";
 const Benefits = () => {
   const benefits = [
     {
-      title: "Quick Deployment",
-      description: "Deploy a complete Web3 payment ecosystem in days, not months. Perfect for festivals, events, and municipal implementations.",
-      stat: "48h",
-      statLabel: "Setup Time"
-    },
-    {
-      title: "Proven ROI",
-      description: "Reduce transaction costs by up to 80% while increasing local economic activity and tourism engagement through seamless crypto payments.",
-      stat: "80%",
-      statLabel: "Cost Reduction"
-    },
-    {
-      title: "White-Label Ready",
-      description: "Fully customizable platform that can be branded for your city, event, or organization. Complete source code included.",
+      title: "Custom Event Coins",
+      description: "Create branded tokens specific to your event that work offline and build community engagement. Attendees get exclusive access to your local economy ecosystem.",
       stat: "100%",
-      statLabel: "Customizable"
+      statLabel: "Offline Capable"
+    },
+    {
+      title: "Blockchain Security & Transparency",
+      description: "Every transaction is recorded on blockchain for complete transparency. Real-time analytics show spending patterns while ensuring secure, instant settlements.",
+      stat: "2.5%",
+      statLabel: "Transaction Fee"
+    },
+    {
+      title: "Controlled Economy",
+      description: "Create a closed-loop system where your community coins circulate within your event, boosting local spending and giving you full control over the economy.",
+      stat: "0sec",
+      statLabel: "Settlement Time"
     }
   ];
 
@@ -27,11 +27,11 @@ const Benefits = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-6">
-            Why Cities & Events Choose LocalCoin
+            Why Blockchain & Community Coins Transform Events
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            Join forward-thinking municipalities, festival organizers, and investors who are 
-            already implementing LocalCoin to revolutionize their local economies.
+            Harness the power of blockchain technology to create your own branded cryptocurrency. 
+            Build stronger communities, reduce costs, and gain unprecedented control over your local economy.
           </p>
         </div>
 
@@ -59,18 +59,18 @@ const Benefits = () => {
 
         <div className="bg-gradient-hero rounded-2xl p-12 text-center">
           <h3 className="text-2xl md:text-4xl font-bold text-primary-foreground mb-6">
-            Ready to Deploy LocalCoin?
+            Launch Your Community Coin Today
           </h3>
           <p className="text-lg text-primary-foreground/90 mb-8 max-w-2xl mx-auto">
-            Get started with our enterprise-ready platform. Complete source code, 
-            deployment guides, and ongoing support included for qualified partners.
+            Create your own branded cryptocurrency for festivals, markets, or local businesses. 
+            Complete blockchain infrastructure with zero technical complexity - just deploy and go.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button variant="gold" size="lg">
-              Contact Sales
+              Start Your Coin
             </Button>
             <Button variant="outline" size="lg" className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10">
-              View Case Studies
+              View Live Demo
             </Button>
           </div>
         </div>

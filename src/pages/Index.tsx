@@ -3,6 +3,8 @@ import Hero from "@/components/Hero";
 import Features from "@/components/Features";
 import CryptoAdvantages from "@/components/CryptoAdvantages";
 import Benefits from "@/components/Benefits";
+import UseCases from "@/components/UseCases";
+import ContactForm from "@/components/ContactForm";
 
 const Index = () => {
   return (
@@ -10,8 +12,10 @@ const Index = () => {
       <Navigation />
       <Hero />
       <Features />
-      <CryptoAdvantages />
       <Benefits />
+      <CryptoAdvantages />
+      <UseCases />
+      <ContactForm />
     </div>
   );
 };

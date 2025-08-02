@@ -8,21 +8,24 @@ const Hero = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="text-center lg:text-left">
-            <h1 className="text-4xl md:text-6xl font-bold text-primary-foreground mb-6 animate-fade-in">
-              The <span className="text-gold">WeChat for Local Economies</span>{" "}
-              – Deploy at Your Event or City
+            <h1 className="text-4xl md:text-6xl font-bitter font-bold text-primary-foreground mb-6 animate-fade-in">
+              <span className="text-gold">SaaS Platform</span> for Local Events & Communities
             </h1>
-            <p className="text-lg md:text-xl text-primary-foreground/90 mb-8 leading-relaxed">
-              A comprehensive "everything app" platform that unifies payments, messaging, and merchant discovery. 
-              Deploy this ready-to-go Web3 ecosystem that breaks language barriers and creates seamless local commerce experiences.
+            <p className="text-lg md:text-xl text-primary-foreground/90 mb-8 leading-relaxed font-open-sans">
+              Deploy our whitelabel "everything app" at your festival, campus, or community event. 
+              Features AI-driven merchant discovery, multilingual communication, and seamless crypto payments.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <Button variant="gold" size="lg" className="animate-glow">
-                Request Demo
-              </Button>
-              <Button variant="outline" size="lg" className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10">
-                Download Code
-              </Button>
+              <a href="#contact">
+                <Button variant="gold" size="lg" className="animate-glow font-open-sans">
+                  Request Demo
+                </Button>
+              </a>
+              <a href="#use-cases">
+                <Button variant="outline" size="lg" className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 font-open-sans">
+                  See Use Cases
+                </Button>
+              </a>
             </div>
           </div>
           <div className="relative">

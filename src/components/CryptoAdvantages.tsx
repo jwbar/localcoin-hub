@@ -38,12 +38,12 @@ const CryptoAdvantages = () => {
     <section className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-6">
-            Why Blockchain Beats Traditional Payments
+          <h2 className="text-3xl md:text-5xl font-bitter font-bold text-foreground mb-6">
+            Why Crypto & Community Coins?
           </h2>
-          <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            Traditional payment systems weren't designed for events and communities. 
-            Blockchain technology solves fundamental problems that cost organizers thousands in lost revenue.
+          <p className="text-lg text-muted-foreground max-w-3xl mx-auto font-open-sans">
+            Blockchain technology solves real problems for events and communities, 
+            creating unique value that traditional payment systems simply can't match.
           </p>
         </div>
 
@@ -56,10 +56,10 @@ const CryptoAdvantages = () => {
               <div className="text-4xl mb-4">
                 {advantage.icon}
               </div>
-              <h3 className="text-xl font-semibold text-foreground mb-3">
+              <h3 className="text-xl font-bitter font-semibold text-foreground mb-3">
                 {advantage.title}
               </h3>
-              <p className="text-muted-foreground leading-relaxed">
+              <p className="text-muted-foreground leading-relaxed font-open-sans">
                 {advantage.description}
               </p>
             </div>
@@ -69,41 +69,43 @@ const CryptoAdvantages = () => {
         <div className="bg-gradient-card rounded-2xl p-8 border border-border">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
             <div>
-              <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
+              <h3 className="text-2xl md:text-3xl font-bitter font-bold text-foreground mb-4">
                 Create Your Event's Digital Economy
               </h3>
-              <p className="text-muted-foreground mb-6">
+              <p className="text-muted-foreground mb-6 font-open-sans">
                 Launch branded tokens that attendees purchase with fiat currency but spend like cash. 
                 Create scarcity, exclusive access, and community ownership while you maintain full control.
               </p>
               <ul className="space-y-2 mb-6">
-                <li className="flex items-center text-muted-foreground">
+                <li className="flex items-center text-muted-foreground font-open-sans">
                   <span className="text-primary mr-2">✓</span>
                   Custom token branding and design
                 </li>
-                <li className="flex items-center text-muted-foreground">
+                <li className="flex items-center text-muted-foreground font-open-sans">
                   <span className="text-primary mr-2">✓</span>
                   Set your own exchange rates and fees
                 </li>
-                <li className="flex items-center text-muted-foreground">
+                <li className="flex items-center text-muted-foreground font-open-sans">
                   <span className="text-primary mr-2">✓</span>
                   Automatic vendor payouts to bank accounts
                 </li>
-                <li className="flex items-center text-muted-foreground">
+                <li className="flex items-center text-muted-foreground font-open-sans">
                   <span className="text-primary mr-2">✓</span>
                   Complete transaction visibility and control
                 </li>
               </ul>
-              <Button variant="secondary" size="lg">
-                Learn About Token Economics
-              </Button>
+              <a href="#contact">
+                <Button variant="secondary" size="lg" className="font-open-sans">
+                  Learn About Token Economics
+                </Button>
+              </a>
             </div>
             <div className="bg-secondary/20 rounded-xl p-8 text-center">
               <div className="text-6xl mb-4">🪙</div>
-              <h4 className="text-xl font-semibold text-foreground mb-2">
-                Your Festival Coin
+              <h4 className="text-xl font-bitter font-semibold text-foreground mb-2">
+                Your Event Coin
               </h4>
-              <p className="text-muted-foreground text-sm">
+              <p className="text-muted-foreground text-sm font-open-sans">
                 Custom branded cryptocurrency for your event
               </p>
             </div>

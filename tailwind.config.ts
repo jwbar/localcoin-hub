@@ -10,6 +10,12 @@ export default {
 	],
 	prefix: "",
 	theme: {
+		fontFamily: {
+			'bitter': ['Bitter', 'serif'],
+			'open-sans': ['Open Sans', 'sans-serif'],
+			'sans': ['Open Sans', 'sans-serif'],
+			'serif': ['Bitter', 'serif'],
+		},
 		container: {
 			center: true,
 			padding: '2rem',

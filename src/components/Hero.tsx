@@ -15,6 +15,7 @@ const Hero = () => {
               A peer-to-peer marketplace app that powers the local circular economy. 
               Buy and sell goods using LocalCoin (LOC), a token pegged to $1 USD, running on Solana for fast, low-cost transactions.
             </p>
+             {/* 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <a href="#contact">
                 <Button variant="gold" size="lg" className="animate-glow font-open-sans">
@@ -27,6 +28,7 @@ const Hero = () => {
                 </Button>
               </a>
             </div>
+            */}
           </div>
           <div className="relative">
             <div className="relative z-10 animate-float">

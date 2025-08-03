@@ -63,6 +63,7 @@ const Benefits = () => {
           <p className="text-lg text-primary-foreground/90 mb-8 max-w-2xl mx-auto font-open-sans">
             Be part of a community-driven marketplace that keeps local value local while promoting sustainable reuse and stronger neighborhoods.
           </p>
+         {/* 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="#contact">
               <Button variant="gold" size="lg" className="font-open-sans">
@@ -75,6 +76,7 @@ const Benefits = () => {
               </Button>
             </a>
           </div>
+          */}
         </div>
       </div>
     </section>

@@ -103,7 +103,7 @@ const UseCases = () => {
             </Card>
           ))}
         </div>
-
+ {/* 
         <div className="text-center">
           <a href="#contact">
             <Button variant="default" size="lg" className="font-open-sans">
@@ -111,6 +111,7 @@ const UseCases = () => {
             </Button>
           </a>
         </div>
+        */}
       </div>
     </section>
   );

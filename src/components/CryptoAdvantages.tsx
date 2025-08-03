@@ -82,11 +82,13 @@ const CryptoAdvantages = () => {
                   2% platform fee only
                 </li>
               </ul>
+               {/* 
               <a href="#contact">
                 <Button variant="secondary" size="lg" className="font-open-sans">
                   Learn More About LOC
                 </Button>
               </a>
+              */}
             </div>
             <div className="bg-secondary/20 rounded-xl p-8 text-center">
               <div className="text-6xl mb-4">🪙</div>

@@ -3,22 +3,22 @@ import { Button } from "@/components/ui/button";
 const Benefits = () => {
   const benefits = [
     {
-      title: "For Attendees",
-      description: "AI suggests relevant merchants and offers. Communicate in any language. Pay instantly without cash or international fees. Access only verified vendors for safety.",
-      stat: "95%",
-      statLabel: "User Satisfaction"
+      title: "For Buyers",
+      description: "Easy discovery, chat negotiations, zero banking needed. Support local reuse while finding great deals in your neighborhood.",
+      stat: "0",
+      statLabel: "Banking Required"
     },
     {
-      title: "For Merchants", 
-      description: "Get discovered by interested customers. Chat directly with potential clients. No expensive POS systems. Instant payments with minimal fees.",
-      stat: "2.5%",
-      statLabel: "Transaction Fee"
+      title: "For Sellers", 
+      description: "Instant LOC payments, direct communication, no POS required. List items quickly and get paid immediately.",
+      stat: "2%",
+      statLabel: "Platform Fee"
     },
     {
-      title: "For Organizers",
-      description: "Deploy whitelabel platform within days. Full branding control. Real-time analytics. Reduce payment complexity. Create new revenue streams.",
-      stat: "0sec",
-      statLabel: "Settlement Time"
+      title: "For Community",
+      description: "Local reuse, neighborhood economy, decentralized alternative to big tech platforms. Keep value in your community.",
+      stat: "$1",
+      statLabel: "LOC Token Value"
     }
   ];
 
@@ -27,11 +27,10 @@ const Benefits = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bitter font-bold text-foreground mb-6">
-            Benefits for Everyone
+            Built for Local Communities
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto font-open-sans">
-            LocalCoin creates value for attendees, merchants, and organizers through seamless integration 
-            and innovative features that enhance every interaction.
+            LocalCoin serves buyers, sellers, and communities with features that create sustainable local economies and strengthen neighborhood connections.
           </p>
         </div>
 
@@ -59,21 +58,20 @@ const Benefits = () => {
 
         <div className="bg-gradient-hero rounded-2xl p-12 text-center">
           <h3 className="text-2xl md:text-4xl font-bitter font-bold text-primary-foreground mb-6">
-            Ready to Transform Your Event?
+            Ready to Join the Local Economy?
           </h3>
           <p className="text-lg text-primary-foreground/90 mb-8 max-w-2xl mx-auto font-open-sans">
-            Join successful festivals, campuses, and communities using LocalCoin to enhance attendee experience 
-            and boost merchant sales with seamless technology.
+            Be part of a community-driven marketplace that keeps local value local while promoting sustainable reuse and stronger neighborhoods.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="#contact">
               <Button variant="gold" size="lg" className="font-open-sans">
-                Get Started Today
+                Start Trading Today
               </Button>
             </a>
             <a href="#use-cases">
               <Button variant="outline" size="lg" className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 font-open-sans">
-                View Success Stories
+                See How It Works
               </Button>
             </a>
           </div>

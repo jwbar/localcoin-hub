@@ -160,7 +160,7 @@ const ContactForm = () => {
                   </div>
 
                   <div className="space-y-2">
-                    <Label htmlFor="organization" className="font-open-sans">Organization</Label>
+                    <Label htmlFor="organization" className="font-open-sans">Organization (optional)</Label>
                     <Input
                       id="organization"
                       value={formData.organization}

@@ -6,18 +6,18 @@ const Features = () => {
   const features = [
     {
       icon: cryptoIcon,
-      title: "AI-Driven Merchant Discovery",
-      description: "Smart recommendations help attendees find relevant vendors, services, and experiences based on preferences and location."
+      title: "Seamless Wallet & Payment System",
+      description: "Built-in wallet with LOC balance display. Buy and sell without traditional banking - vendors cash out when ready."
     },
     {
       icon: messagingIcon,
-      title: "Multilingual Communication",
-      description: "Real-time translation and universal chat system breaks language barriers, perfect for international events and tourist areas."
+      title: "In-App Chat",
+      description: "Direct buyer-seller communication for negotiating deals, coordinating handoffs, and building trust in your local community."
     },
     {
       icon: tourismIcon,
-      title: "Seamless Crypto Payments",
-      description: "Instant settlements, QR code scanning, and custom event tokens eliminate payment friction and international fees."
+      title: "Smart Listing System",
+      description: "Geolocation-based listings with personalized feeds. Discover secondhand goods and services in your neighborhood."
     }
   ];
 
@@ -26,11 +26,11 @@ const Features = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bitter font-bold text-foreground mb-6">
-            The Complete Platform for Your Event
+            Everything You Need for Local Trade
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto font-open-sans">
-            Everything attendees and merchants need in one seamless app. 
-            Deploy within days, customize to your brand, and transform your event experience.
+            Supporting local reuse and sustainability while strengthening neighborhood economies. 
+            An alternative to centralized marketplace platforms with 2% platform fee.
           </p>
         </div>
         
